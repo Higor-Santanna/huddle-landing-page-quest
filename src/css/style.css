@@ -1,0 +1,116 @@
+html{
+    background: url(../images/bg-desktop.svg) no-repeat;
+    max-width: var(--max-width-size);
+    background-color: var(--cor-de-fundo);
+    font-size: 62.5%;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "social-media social-media";
+
+    grid-template-columns: repeat(2, 1fr);
+    padding: 4rem 7rem;
+}
+
+/*HEADER*/
+
+.header{
+    grid-area: header;
+}
+
+.header .logo-da-empresa{
+    width: 18rem;
+    margin-bottom: 6rem;
+}
+
+/* MAIN */
+
+.main{
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main .imagem-de-paginas img{
+    max-width: 100%;
+    height: auto;
+}
+
+.main .textos{
+    color: var(--cor-do-texto);
+    padding: 6rem 4.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.main .textos h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2.2rem;
+}
+
+.main .botao-register{
+    display: flex;
+    width: 20rem;
+    height: 5rem;
+    border-radius: 5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0.2rem 0.1rem 1rem rgb(43, 43, 43);
+    margin-top: 2.2rem;
+    cursor: pointer;
+}
+
+.main .botao-register p{
+    font-size: 1.6rem;
+}
+
+.main .botao-register:hover{
+    background-color: var(--cor-do-botao);
+    transition: 0.3s;
+    color: #fff;
+}
+
+/* FOOTER */ 
+
+.social-media{
+    grid-area: social-media;
+}
+
+.social-media div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media .logos-social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 1.5rem;
+}
+
+.social-media .logos-social-media i{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.social-media .logos-social-media:hover{
+    border: 1px solid var(--cor-do-botao);
+    transition: 0.4s;
+}
+
+.social-media i:hover{
+    color: var(--cor-do-botao);
+    transition: 0.2s;
+}

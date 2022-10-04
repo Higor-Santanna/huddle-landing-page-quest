@@ -1,0 +1,45 @@
+@media (max-width: 900px){
+    .main{
+        grid-template-columns: 1fr;
+    } 
+}
+
+@media (max-width: 420px){
+    html{
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-color: var(--cor-de-fundo);
+    }
+
+    body{
+        padding: 3rem 3.4rem;
+    }
+
+    .header .logo-da-empresa{
+        width: 14rem;
+        margin-bottom: 5.3rem;
+    }
+
+    .main .textos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 5rem 0;
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+    .main .textos h2{
+        font-size: 2.5rem;
+    }
+
+    .main .textos .botao-register{
+        width: 22rem;
+        height: 4rem;
+    }
+
+    .social-media div{
+        display: flex;
+        justify-content: center;
+    }
+}
