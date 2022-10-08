@@ -1,3 +1,41 @@
+@media (width: 2560px){
+    body{
+        padding: 0 25rem;
+    }
+
+    .header .logo-da-empresa{
+        width: 30rem;
+    }
+
+    .main .imagem-de-paginas img{
+        width: 100%;
+    }
+
+    .main .textos{
+        padding: 7rem 8rem;
+        font-size: 3rem;
+    }
+    
+    .main .textos h2{
+        font-size: 5.8rem;
+        margin-bottom: 2.2rem;
+    }
+
+    .main .botao-register{
+        width: 30rem;
+        height: 7rem;
+        font-size: 2.7rem;
+    }
+
+    .social-media .logos-social-media i{
+        width: 7rem;
+        height: 7rem;
+        border: 2px solid #fff;
+        margin-left: 2rem;
+        font-size: 3rem;
+    }
+}
+
 @media (max-width: 900px){
     .main{
         grid-template-columns: 1fr;
@@ -38,8 +76,12 @@
         height: 4rem;
     }
 
-    .social-media div{
+    .social-media{
         display: flex;
         justify-content: center;
+    }
+
+    .social-media .logos-social-media > i{
+        margin: 0.5rem;
     }
 }

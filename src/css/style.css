@@ -1,8 +1,13 @@
 html{
+    width: 100%;
+    min-height: 100vh;
     background: url(../images/bg-desktop.svg) no-repeat;
-    max-width: var(--max-width-size);
     background-color: var(--cor-de-fundo);
+    background-size: cover;
     font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 body{
@@ -56,40 +61,32 @@ body{
 }
 
 .main .botao-register{
-    display: flex;
     width: 20rem;
     height: 5rem;
     border-radius: 5rem;
-    justify-content: center;
-    align-items: center;
     background-color: #fff;
     box-shadow: 0.2rem 0.1rem 1rem rgb(43, 43, 43);
     margin-top: 2.2rem;
+    color: var(--cor-de-fundo);
+    font-size: 1.6rem;
     cursor: pointer;
 }
 
-.main .botao-register p{
-    font-size: 1.6rem;
-}
-
 .main .botao-register:hover{
-    background-color: var(--cor-do-botao);
-    transition: 0.3s;
     color: #fff;
+    background-color: var(--cor-do-botao);
+    transition: 0.4s ease-in-out;
 }
 
 /* FOOTER */ 
 
 .social-media{
     grid-area: social-media;
-}
-
-.social-media div{
     display: flex;
     justify-content: flex-end;
 }
 
-.social-media .logos-social-media{
+.social-media .logos-social-media i{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,19 +95,13 @@ body{
     width: 3.5rem;
     height: 3.5rem;
     margin-left: 1.5rem;
-}
-
-.social-media .logos-social-media i{
     font-size: 1.5rem;
     color: #fff;
 }
 
-.social-media .logos-social-media:hover{
+.social-media .logos-social-media i:hover{
+    color: var(--cor-do-botao);
     border: 1px solid var(--cor-do-botao);
-    transition: 0.4s;
+    transition: 0.4s ease-in-out;
 }
 
-.social-media i:hover{
-    color: var(--cor-do-botao);
-    transition: 0.2s;
-}

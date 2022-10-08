@@ -22,3 +22,17 @@ Me aprofundei no dimensionamento de imagens e principalmente em fazer o responsi
 Pretendo fazer mais projetos do frontend mentor e de outros sites afim de, afiar mais ainda meu conhecimento.
 
 OBS: Única coisa que não conseguir fazer, foi deixar o círculo e os ícones quando passa o mouse em cima fazer a animação juntos.
+
+CORREÇÕES:
+
+- Corrigido os ícones das redes socias no rodapé da página. Quando ficava no mobile estava desalinhado.
+
+- Feito a responsividade para monitores 4k.
+
+- Centralização da página.
+
+- Correção da cor da fonte do botão.
+
+- Correção da imagem de fundo.
+
+- Correção da animação hover, nos ícones da redes socias.
